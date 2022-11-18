@@ -2,10 +2,9 @@ package com.fkn.marvelheroapp
 
 import androidx.compose.ui.graphics.Color
 
-class HeroData(nameHero: String, descriptionHero: String, linkHero: String, imageHero: Int, colorHero: Color) {
+class HeroData(idHero: String, nameHero: String, painterHero: String?, colorHero: Color) {
+    var id = idHero
     var name = nameHero
-    var description = descriptionHero
-    var link = linkHero
-    var image = imageHero
+    var painter = painterHero
     var color = colorHero
 }
